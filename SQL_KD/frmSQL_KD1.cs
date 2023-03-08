@@ -195,7 +195,7 @@ namespace SQL_KD
         private string generateNumber(int lenght)
         {
             string number = "08";
-            var randomizerTextRegex = RandomizerFactory.GetRandomizer(new FieldOptionsTextRegex { P0attern = @"^[0-9]" });
+            var randomizerTextRegex = RandomizerFactory.GetRandomizer(new FieldOptionsTextRegex { Pattern = @"^[0-9]" });
 
             while (number.Length < lenght)
             {
